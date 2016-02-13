@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Direct funder</title>
+    <link href="css/style.css" rel="stylesheet">
+	
+  </head>
+  <body>
+    <header class="bar bar-nav">
+      <div class="clearfix">
+        <a class="pull-left" href="index.html" style="margin-top:-3px"><img src="images/img_logo.png" alt=""></a>
+        <p class="pull-right">
+          <a class="icon-phone" href="tel:800-680-5379"></a>
+        </p>
+         <p class="nav-button pull-right mr-10">
+          <button class="c-hamburger c-hamburger-htx">
+            <span>toggle menu</span>
+          </button>
+        </p>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a class="active">ABOUT</a></li>
+          <li><a href="creditprocess.html">BUSINESS CREDIT PROCESS</a></li>
+          <li><a href="getapproved.html">GET PRE-APPROVED</a></li>
+           <li><a href="faq.html">FAQ</a></li> <li><a href="../agentc3/index.php">Login</a></li>
+		  <li><a href="vn/about.html">VIETNAMESE VERSION</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="visual">
+      <img src="images/img_about.png" alt="" class="img-visual">
+      <div class="visual-text" style="top:70%;position:initial;">
+        <p class="subvisual-credit" style="z-index:11;">ABOUT</p>
+      </div>
+    </div><!--/.visual-->
+    <div class="container about_bg" style="padding:0px;padding-top:40px;">
+      <div >
+        <p class="txt2 txt-center block-title">MORE THAN 5,000 BUSINESS & <br><b>OVER $400 MILLION</b> RAISED<br>SINCE 2008</p>
+        <p class="txt-justify txt-13 com-2 pl-10 pr-10">Funding a startup is one of the most difficult challenges any entrepreneur will face. Having personally founded over a dozen startups, the Direct Funder executive team understands just how difficult it is to secure funding and turn an idea into reality.</p>
+		<p class="txt-center"><img src="images/img_open.png"></p>
+		<p class="txt-20 txt-orange pl-10">OUR MISSION...</p>
+		<p class="txt-13 com-2 pl-10 pr-10 mission">Direct Funder's mission is to assist entrepreneurs in financing their start-ups through innovative funding and credit building techniques. By providing the cash credit lines needed to launch a business our clients benefit from our team's vast knowledge and experience.<span class="readmore">..<b>Read More</b></span> <span class="detail" style="display:none;">We strive to connect every client with the financial resources needed to achieve a distinct and sustainable competitive advantage. Our services assist clients in developing sound, scalable business models with clear paths to revenue and our policies have been created to ensure that the motivations of our clients and our firm are clearly aligned.<br>
+		Since 2008, Direct Funder has facilitated more than a quarter billion dollars in funding for its consulting clients, resulting in over 5,000 new businesses. From retail to technology to product development, we have been part of or advised hundreds of companies and offer valuable consulting experience from both failure and success.</span></p>
+		<div style="background:#FFFFFF;padding-top:20px;padding-bottom:20px;">
+		<p class="txt-20 pl-10" style="color:#313745;">BUSINESS LOANS!</p>
+		<p class="txt-center pt-10" ><img src="images/img_loan.png" style="border: 1px solid #d1d1d1;"></p>
+		<p class="txt-13 com-2 pl-10 pr-10 loan">Business loans are an important part of a business’s survival and ultimate success. Money and capital are essential in allowing companies to grow and in taking advantage of strategic investments.<span class="readmore">..<b>Read More</b></span> <span class="detail" style="display:none;"> Business loans are the most common way for a business to obtain funding.   A key source for business loans that most businesses take advantage of are the business owner’s personal savings. With a personal savings business loan there is no one to repay, therefore issues such as interest and monthly payments become moot because the business owner is issuing the business loan his or herself.<br>
+		However the obvious risk of this type of business loan is that if the business does fail, the business owner’s own money is subject to risk and loss.   Business Loan Org and Direct Funder bring you vital information on the financial management of your business. There are a broad number of ways to acquiring the necessary funding, including the United States Small Business Administration (SBA). They provide numerous programs to help businesses in various situations with various types of business loans.<br>
+		While money is a large part of keeping a business intact, there are many other important aspects such as knowledge, experience, and organization. Keeping business plan and following a schedule can be the difference between failure and success. When forecasting your business’s capital needs, always overestimate how much you will need and why a business loan is the best way to achieve your business’s goals. The cost of borrowing money can be very high without proper planning. Some things to think about include:</span></p>
+		</div>
+		<div class="feature">
+			<ul>
+				<li>How badly does your business need the money? Will it be to startup or expand your business? Or is it just to ensure the business runs smoothly?</li>
+				<li>Is your business in great risk if you don't receive the business loan? Will your company fail without the business loan?</li>
+				<li>In what state is your business currently? Growing, stable, failing? Businesses that are not fairing as well will not have as good funding terms or business loan options.</li>
+				<li>How capable is your leading management? Without a key focus on what you are planning to do with the money can lead to ultimatelynot obtaining a business loan. Loaners are very keen on knowing what is going to be done with the money, and your business’s plan on repaying the business loan.</li>
+			</ul>
+		</div>
+      </div><!--/.step-->
+    </div><!--/.container-->
+    <div class="footer">
+      <ul class="nav-footer">
+        <li><a href="index.html"><img src="images/icon_home.png" alt="" width="16" height="13"></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="creditprocess.html">Business Credit Process</a></li>
+        <li><a href="getapproved.html">Get Pre-Approved</a></li>
+         <li><a href="faq.html">FAQ</a></li> <li><a href="../agentc3/index.php">Login</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/DirectFunder"><img src="images/icon_fb.png" alt=""></a></li>
+        <li><a href="https://twitter.com/DirectFunder"><img src="images/icon_tw.png" alt=""></a></li>
+        <li><a ><img src="images/icon_ins.png" alt=""></a></li>
+        <li><a ><img src="images/icon_in.png" alt=""></a></li>
+        <li><a ><img src="images/icon_youtube.png" alt=""></a></li>
+        <li><a href="https://plus.google.com/u/0/112945951832303327647/posts"><img src="images/icon_g.png" alt=""></a></li>
+      </ul>
+      <img src="images/img_logo_footer.png" alt="">
+      <a href="tel:800-680-5379" style="text-decoration:none"><p class="call-footer">Call 800-680-5379</p></a>
+      <p class="copyright">© 2015 www.DirectFunder.com <br>
+ All rights reserved | <a  class="policy">Privacy Policy</a></p>
+    </div><!--/.footer-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      (function () {
+
+        "use strict";
+
+        var toggles = document.querySelectorAll(".c-hamburger");
+
+        for (var i = toggles.length - 1; i >= 0; i--) {
+          var toggle = toggles[i];
+          toggleHandler(toggle);
+        };
+
+        function toggleHandler(toggle) {
+          toggle.addEventListener("click", function (e) {
+            $('nav').slideToggle('500');
+            e.preventDefault();
+            (this.classList.contains("is-active") === true) ? this.classList.remove("is-active"): this.classList.add("is-active");
+          });
+        }
+
+      })();
+      $(document).ready(function() {
+		$(".mission .readmore").click(function(){
+				$(".mission .detail").css("display","");
+				$(this).css("display","none");
+		});
+		$(".loan .readmore").click(function(){
+				$(".loan .detail").css("display","");
+				$(this).css("display","none");
+		});
+	  });
+    </script>
+  </body>
+</html>

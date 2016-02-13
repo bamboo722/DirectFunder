@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\directfunder\DirectFunder.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/directfunder/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/directfunder/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.3">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\class.phpmailer.php">
+			<todo name="TODO Why is this needed when the SMTP class takes care of it?" pos="8;230"/>
+			<todo name="TODO This should really not be public" pos="8;361"/>
+			<todo name="@TODO: Write our own &quot;idn_to_ascii&quot; function for PHP &lt;= 5.2." pos="9;1128"/>
+			<todo name="@TODO would be nice to use php://temp streams here, but need to wrap for PHP &lt; 5.1" pos="17;2234"/>
+			<todo name="TODO Should this not be using the __set() magic function?" pos="8;3569"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\test\phpmailerTest.php">
+			<todo name="TODO No assertions in here - how can you assert for this?" pos="8;1353"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery-ui.js">
+			<todo name="TODO: remove support for widgetEventPrefix" pos="3;424"/>
+			<todo name="TODO: make sure destroying one instance of mouse doesn't mess with" pos="2;899"/>
+			<todo name="TODO: It should never be possible to not have an active item at this" pos="3;2725"/>
+			<todo name="TODO pass through original event correctly (just as 2nd argument doesn't work)" pos="7;3538"/>
+			<todo name="TODO rename to &quot;widget&quot; when switching to widget factory" pos="2;3900"/>
+			<todo name="TODO: determine which cases actually cause this to happen" pos="3;7001"/>
+			<todo name="TODO : What's going on here?" pos="5;7104"/>
+			<todo name="TODO: What's that good for? There's not anything to be executed left" pos="5;7144"/>
+			<todo name="TODO: make renderAxis a prototype function" pos="3;7151"/>
+			<todo name="TODO: Unwrap at same DOM position" pos="3;7207"/>
+			<todo name="TODO: Seems like a bug to cache this.outerDimensions" pos="4;7582"/>
+			<todo name="TODO: Don't modify option" pos="24;7612"/>
+			<todo name="TODO: Remove hack when datepicker implements" pos="3;8891"/>
+			<todo name="TODO: Still need to figure out a way to make relative sorting possible" pos="3;13690"/>
+			<todo name="TODO: do we really want to consider this a stop?" pos="3;14951"/>
+			<todo name="TODO: what should we do with values that can't be parsed?" pos="4;15182"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery.autocomplete.js">
+			<todo name="TODO why not just specifying both arguments?" pos="3;170"/>
+			<todo name="TODO this should set the cursor to the right position, but it gets overriden somewhere" pos="5;225"/>
+			<todo name="TODO provide option to avoid setting focus again after selection? useful for cleanup-on-focus" pos="4;604"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery.js">
+			<todo name="TODO: This timeout is temporary until I move ready into core.js." pos="2;900"/>
+			<todo name="TODO: Move to normal caching system" pos="4;2895"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\prospects\PHPMailer-master\class.phpmailer.php">
+			<todo name="TODO Why is this needed when the SMTP class takes care of it?" pos="8;230"/>
+			<todo name="TODO This should really not be public" pos="8;361"/>
+			<todo name="@TODO: Write our own &quot;idn_to_ascii&quot; function for PHP &lt;= 5.2." pos="9;1128"/>
+			<todo name="@TODO would be nice to use php://temp streams here, but need to wrap for PHP &lt; 5.1" pos="17;2234"/>
+			<todo name="TODO Should this not be using the __set() magic function?" pos="8;3569"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\prospects\PHPMailer-master\test\phpmailerTest.php">
+			<todo name="TODO No assertions in here - how can you assert for this?" pos="8;1353"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\prospects\userprofile\assets\js\base\jquery-ui.js">
+			<todo name="TODO: remove support for widgetEventPrefix" pos="3;424"/>
+			<todo name="TODO: make sure destroying one instance of mouse doesn't mess with" pos="2;899"/>
+			<todo name="TODO: It should never be possible to not have an active item at this" pos="3;2725"/>
+			<todo name="TODO pass through original event correctly (just as 2nd argument doesn't work)" pos="7;3538"/>
+			<todo name="TODO rename to &quot;widget&quot; when switching to widget factory" pos="2;3900"/>
+			<todo name="TODO: determine which cases actually cause this to happen" pos="3;7001"/>
+			<todo name="TODO : What's going on here?" pos="5;7104"/>
+			<todo name="TODO: What's that good for? There's not anything to be executed left" pos="5;7144"/>
+			<todo name="TODO: make renderAxis a prototype function" pos="3;7151"/>
+			<todo name="TODO: Unwrap at same DOM position" pos="3;7207"/>
+			<todo name="TODO: Seems like a bug to cache this.outerDimensions" pos="4;7582"/>
+			<todo name="TODO: Don't modify option" pos="24;7612"/>
+			<todo name="TODO: Remove hack when datepicker implements" pos="3;8891"/>
+			<todo name="TODO: Still need to figure out a way to make relative sorting possible" pos="3;13690"/>
+			<todo name="TODO: do we really want to consider this a stop?" pos="3;14951"/>
+			<todo name="TODO: what should we do with values that can't be parsed?" pos="4;15182"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\prospects\userprofile\assets\js\base\jquery.autocomplete.js">
+			<todo name="TODO why not just specifying both arguments?" pos="3;170"/>
+			<todo name="TODO this should set the cursor to the right position, but it gets overriden somewhere" pos="5;225"/>
+			<todo name="TODO provide option to avoid setting focus again after selection? useful for cleanup-on-focus" pos="4;604"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\directfunder\prospects\userprofile\assets\js\base\jquery.js">
+			<todo name="TODO: This timeout is temporary until I move ready into core.js." pos="2;900"/>
+			<todo name="TODO: Move to normal caching system" pos="4;2895"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\parallax.js" crc="1490897469"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\parallax.function.js" crc="1958016424"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\owl.carousel.js" crc="-1495508976"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\jquery.validate.min.js" crc="-1843375556"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\jquery.min.js" crc="331065415"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\home.js" crc="1981279326"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\js\approved.js" crc="720159680"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\subpage.css" crc="750787303"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\slider.css" crc="-974044385"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\owl.theme.css" crc="-1703881247"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\owl.carousel.css" crc="1137309097"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\normalize.css" crc="1773210606"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\main.css" crc="-2064193437"/>
+		<file name="C:\xampp\htdocs\directfunder\vn\css\fonts.css" crc="837776512"/>
+		<file name="C:\xampp\htdocs\directfunder\tapi\tapi.php" crc="-1644030058"/>
+		<file name="C:\xampp\htdocs\directfunder\tapi\ReadMe.txt" crc="-238554361"/>
+		<file name="C:\xampp\htdocs\directfunder\tapi\magic2.php" crc="-1666835118"/>
+		<file name="C:\xampp\htdocs\directfunder\tapi\magic.php" crc="-1564195711"/>
+		<file name="C:\xampp\htdocs\directfunder\tapi\fail.php" crc="89453697"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\parallax.js" crc="1490897469"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\parallax.function.js" crc="1958016424"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\owl.carousel.js" crc="-1495508976"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\jquery.validate.min.js" crc="-1843375556"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\jquery.min.js" crc="331065415"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\home.js" crc="-479424080"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\js\approved.js" crc="-1110360207"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\send.php" crc="710180076"/>
+		<file name="C:\xampp\htdocs\directfunder\old-js\apply.php" crc="55876576"/>
+		<file name="C:\xampp\htdocs\directfunder\nbproject\private\private.xml" crc="552970125"/>
+		<file name="C:\xampp\htdocs\directfunder\nbproject\project.xml" crc="-1938676502"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\zapfdingbats.php" crc="1538138577"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\timesi.php" crc="315445319"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\timesbi.php" crc="-1348060263"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\timesb.php" crc="1820467454"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\times.php" crc="-1661814037"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\symbol.php" crc="-2102931116"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\helveticai.php" crc="1066961713"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\helveticabi.php" crc="-1209949660"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\helveticab.php" crc="1758468914"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\helvetica.php" crc="1502735853"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\courieri.php" crc="1890644652"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\courierbi.php" crc="823671290"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\courierb.php" crc="1770150688"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\font\courier.php" crc="-1358284451"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\fpdf.php" crc="-1646280475"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\fpdf\fpdf.css" crc="1339877271"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\Welcome.txt" crc="-483030739"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\sendmail.php" crc="-905194248"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\pdf.txt" crc="1831052795"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\pdf.php" crc="419886097"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\opdf.txt" crc="-365897057"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\GetStarted.txt" crc="854609716"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\Business.txt" crc="-1644874038"/>
+		<file name="C:\xampp\htdocs\directfunder\mail\admin.txt" crc="527354301"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\ratchet.js" crc="1128644596"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\owl.carousel.js" crc="-1495508976"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\jquery.validate.min.js" crc="-1843375556"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\jquery.min.js" crc="331065415"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\jquery.easing.1.3.js" crc="244906860"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\home.js" crc="1755350068"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\js\approved.js" crc="-709672262"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\css\style.css" crc="1436824994"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\css\slider.css" crc="242128301"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\css\owl.theme.css" crc="-660666690"/>
+		<file name="C:\xampp\htdocs\directfunder\m\vn\css\owl.carousel.css" crc="1581664008"/>
+		<file name="C:\xampp\htdocs\directfunder\m\js\owl.carousel.js" crc="-1495508976"/>
+		<file name="C:\xampp\htdocs\directfunder\m\js\jquery.validate.min.js" crc="-1843375556"/>
+		<file name="C:\xampp\htdocs\directfunder\m\js\jquery.min.js" crc="331065415"/>
+		<file name="C:\xampp\htdocs\directfunder\m\js\jquery.easing.1.3.js" crc="244906860"/>
+		<file name="C:\xampp\htdocs\directfunder\m\js\home.js" crc="-211792445"/>
+		<file name="C:\xampp\htdocs\directfunder\m\js\approved.js" crc="-1440367197"/>
+		<file name="C:\xampp\htdocs\directfunder\m\css\style.css" crc="748499602"/>
+		<file name="C:\xampp\htdocs\directfunder\m\css\slider.css" crc="1181624757"/>
+		<file name="C:\xampp\htdocs\directfunder\m\css\owl.theme.css" crc="587101602"/>
+		<file name="C:\xampp\htdocs\directfunder\m\css\owl.carousel.css" crc="1581664008"/>
+		<file name="C:\xampp\htdocs\directfunder\js\parallax.js" crc="1490897469"/>
+		<file name="C:\xampp\htdocs\directfunder\js\parallax.function.js" crc="1958016424"/>
+		<file name="C:\xampp\htdocs\directfunder\js\owl.carousel.js" crc="-1495508976"/>
+		<file name="C:\xampp\htdocs\directfunder\js\jquery.validate.min.js" crc="-1843375556"/>
+		<file name="C:\xampp\htdocs\directfunder\js\jquery.min.js" crc="331065415"/>
+		<file name="C:\xampp\htdocs\directfunder\js\home.js" crc="163340063"/>
+		<file name="C:\xampp\htdocs\directfunder\js\approved.js" crc="376636725"/>
+		<file name="C:\xampp\htdocs\directfunder\fonts\font.php" crc="604163537"/>
+		<file name="C:\xampp\htdocs\directfunder\css\subpage.css" crc="1541649"/>
+		<file name="C:\xampp\htdocs\directfunder\css\slider.css" crc="694390762"/>
+		<file name="C:\xampp\htdocs\directfunder\css\owl.theme.css" crc="-1703881247"/>
+		<file name="C:\xampp\htdocs\directfunder\css\owl.carousel.css" crc="1137309097"/>
+		<file name="C:\xampp\htdocs\directfunder\css\normalize.css" crc="1773210606"/>
+		<file name="C:\xampp\htdocs\directfunder\css\main.css" crc="-1233382370"/>
+		<file name="C:\xampp\htdocs\directfunder\css\fonts.css" crc="734880935"/>
+		<file name="C:\xampp\htdocs\directfunder\css\bootstrap.css" crc="2103827166"/>
+		<file name="C:\xampp\htdocs\directfunder\css\bootstrap - Copy.css" crc="-57591751"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\navigation\index-before-login-navigation.php" crc="418128611"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\navigation\first-navigation.php" crc="-1624958626"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\form\update-profile-after-registration-form.php" crc="986472221"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\form\update-bio-after-registration-form.php" crc="-742072367"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\form\registration-form.php" crc="-629391766"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\form\edit-profile-form.php" crc="-673381197"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\base\style.php" crc="-1601777411"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\base\meta-tags.php" crc="941576966"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\base\javascript.php" crc="176354445"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\base\head.php" crc="-210961146"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\base\font.php" crc="-177523239"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\controllers\base\css.php" crc="202468130"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\update-profile.php" crc="-180904744"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\update-profile-after-registration.php" crc="704456820"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\update-bio-after-registration.php" crc="534495634"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\session-check.php" crc="78373944"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\session-check-user-profile.php" crc="-1464786552"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\session-check-profile.php" crc="-1878419357"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\session-check-index.php" crc="1754127122"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\search.php" crc="-716665199"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\registration.php" crc="-1449310213"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\logout.php" crc="-1694058343"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\login-process.php" crc="-878857035"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\database.php" crc="-1635883564"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\check-username-availability.php" crc="-152851289"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\authentication.php" crc="911618433"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\components\authentication-check.php" crc="-676935063"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\wow\wow.js" crc="1705649834"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\pace\pace.min.js" crc="-193551629"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\jasny-bootstrap\jasny-bootstrap.js" crc="-939118420"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\instantclick\instantclick.min.js" crc="-2039720277"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\bootstrap-growl\bootstrap-growl.js" crc="-1031842958"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\bootstrap-form-helpers\bootstrap-formhelpers.js" crc="-790270747"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\bootstrap-form-helpers\bootstrap-formhelpers-datepicker.js" crc="-1614139340"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\bootstrap-form-helpers\bootstrap-formhelpers-colorpicker.js" crc="1643227968"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\bootstrap\bootstrap.js" crc="-2041693947"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\smoothscroll.js" crc="194035869"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\scripts.js" crc="1541608299"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\offcanvas.js" crc="391099162"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery.min.js" crc="-1867904500"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery.js" crc="1902539662"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery.form.js" crc="1603788227"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery.autocomplete.js" crc="-2135407550"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery-ui.js" crc="-2051425092"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery-1.8.0.min.js" crc="-571366910"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\js\base\jquery-1.10.2.js" crc="-1691224550"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\css\pace\pace.css" crc="558909664"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\css\font-awesome\font-awesome.css" crc="832041604"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\css\bootstrap-form-helpers\bootstrap-formhelpers.css" crc="1562905036"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\css\bootstrap\bootstrap.css" crc="20759787"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\css\base\main.css" crc="-1110953979"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\assets\css\animate\animate.css" crc="2081262617"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\_database\database.php" crc="2003611021"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\user-profile.php" crc="741410254"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\update-profile-after-registration.php" crc="70483829"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\update-bio-after-registration.php" crc="-1701089938"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\search-result.php" crc="-609955513"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\profile.php" crc="1975492933"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\my-profile.php" crc="-601134407"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\login.php" crc="2135182171"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\index.php" crc="-2054253287"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\home.php" crc="2097421061"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\edit-profile.php" crc="-22560001"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\all-users.php" crc="242123601"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\userprofile\.htaccess" crc="-1936792436"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\timePicker\timePicker.css" crc="-1087413931"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\timePicker\jquery.timePicker.min.js" crc="169711187"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\timePicker\jquery.timePicker.js" crc="2014995587"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\src\GeeVee\simple_html_dom.php" crc="1135658106"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\src\GeeVee\GeeVeeAPI.php" crc="-1575505075"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\test\testbootstrap-dist.php" crc="-486717252"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\test\test_callback.php" crc="92809009"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\test\phpmailerTest.php" crc="803913873"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\test\phpmailerLangTest.php" crc="1109071780"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\test\bootstrap.php" crc="1412470501"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-zh_cn.php" crc="147530641"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-zh.php" crc="-1821747962"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-vi.php" crc="-1358050643"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-uk.php" crc="-736545533"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-tr.php" crc="1738448392"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-sr.php" crc="943631270"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-sl.php" crc="-88160796"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-sk.php" crc="-1154551560"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-se.php" crc="855179578"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ru.php" crc="-774855161"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ro.php" crc="-1351597851"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-pt.php" crc="-1433092605"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-pl.php" crc="-257566081"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-no.php" crc="-858747926"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-nl.php" crc="-2110226268"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ms.php" crc="1166752302"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-lv.php" crc="2056827545"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-lt.php" crc="-1151352037"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ko.php" crc="-2126002631"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ka.php" crc="-799882017"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ja.php" crc="1647359286"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-it.php" crc="-1550081144"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-id.php" crc="-2111982758"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-hu.php" crc="204217153"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-hr.php" crc="-1846498143"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-he.php" crc="-41382346"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-gl.php" crc="-852364503"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-fr.php" crc="-1768813549"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-fo.php" crc="-518199476"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-fi.php" crc="-1799460371"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-fa.php" crc="633991327"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-et.php" crc="1652335516"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-es.php" crc="757074124"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-eo.php" crc="1833455928"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-el.php" crc="-1348124983"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-dk.php" crc="-2140305164"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-de.php" crc="-1905032684"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-cz.php" crc="-1737990344"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ch.php" crc="1621419000"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ca.php" crc="-1668209181"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-br.php" crc="1219693534"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-bg.php" crc="-1979551382"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-be.php" crc="279939961"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-az.php" crc="-1462869159"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-ar.php" crc="1008700355"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\language\phpmailer.lang-am.php" crc="2081386374"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\extras\ntlm_sasl_client.php" crc="2063494585"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\extras\htmlfilter.php" crc="433173433"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\extras\EasyPeasyICS.php" crc="-1968578425"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeVisualStudio.css" crc="-140345817"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeRDark.css" crc="-815804232"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeMidnight.css" crc="1045489904"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeMDUltra.css" crc="1635241742"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeFadeToGrey.css" crc="-1964963265"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeEmacs.css" crc="66766352"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeEclipse.css" crc="-1094039155"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeDjango.css" crc="554774177"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeDefault.css" crc="-1446706731"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shThemeAppleScript.css" crc="1166471492"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreRDark.css" crc="1706130881"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreMidnight.css" crc="255417665"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreMDUltra.css" crc="1355019699"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreFadeToGrey.css" crc="-1224510712"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreEmacs.css" crc="668533390"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreEclipse.css" crc="-1073059951"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreDjango.css" crc="1396140516"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCoreDefault.css" crc="2016684214"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\styles\shCore.css" crc="-814233557"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\scripts\XRegExp.js" crc="577980950"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\scripts\shLegacy.js" crc="634412028"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\scripts\shCore.js" crc="1624445676"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\scripts\shBrushPhp.js" crc="872161725"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\examples\scripts\shAutoloader.js" crc="1621752795"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\docs\pop3_article.txt" crc="-88360266"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\docs\Note_for_SMTP_debugging.txt" crc="1343845266"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\docs\DomainKeys_notes.txt" crc="909595494"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\docs\Callback_function_notes.txt" crc="-1643269977"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\PHPMailerAutoload.php" crc="-2040887017"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\get_oauth_token.php" crc="-859345728"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\class.smtp.php" crc="-2072958167"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\class.pop3.php" crc="368336833"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\class.phpmaileroauthgoogle.php" crc="-1132117432"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\class.phpmaileroauth.php" crc="87727366"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\class.phpmailer.php" crc="-734173935"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\.travis.yml" crc="329968142"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\PHPMailer-master\.scrutinizer.yml" crc="2112902829"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\nbproject\private\private.xml" crc="-1558817190"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\nbproject\project.xml" crc="1732412843"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\systemshm.js" crc="-1534297247"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jQuery.TabSlideOut.js" crc="92436185"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery.hashchange.min.js" crc="-585890787"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery.easytabs.min.js" crc="1272709862"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery.easing.min.js" crc="-242986224"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery.accordion.2.0.min.js" crc="1790576195"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery.accordion.2.0.js" crc="-2088896074"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery-1.7.1.min.js" crc="-1605430263"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\jss\jquery-1.4.2.min.js" crc="1196350804"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\js\jquery.js" crc="1992967986"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\includes\GeeVee\simple_html_dom.php" crc="1135658106"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\includes\GeeVee\GeeVeeAPI.php" crc="-1990645197"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\includes\GoogleVoice.php" crc="1679774209"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\includes\dbconnect.php" crc="875174212"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\old\wcss.css" crc="162430025"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\old\main.css" crc="1506910779"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\old\css.css" crc="-1220472563"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\New folder\main.css" crc="1506910779"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\New folder\bootstrap.min.css" crc="-180819090"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\New folder\bootstrap.css" crc="-1853072400"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\New folder\bootstrap-theme.min.css" crc="1746889955"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\New folder\bootstrap-theme.css" crc="413423990"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\dark-glass\sidebar.css" crc="-1231174669"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\wcss.css" crc="162430025"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\systemshm.css" crc="-148182133"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\style.css" crc="1012683858"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\reset.css" crc="2032310382"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\main.css" crc="1506910779"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\layout.css" crc="883344174"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\dataTables.css" crc="1702675337"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\css.css" crc="-1220472563"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\core.css" crc="1667324767"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\bootstrap.min.css" crc="-180819090"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\bootstrap.css" crc="-1853072400"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\bootstrap-theme.min.css" crc="1746889955"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\bootstrap-theme.css" crc="413423990"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css-old\accordion.core.css" crc="-477329340"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\wcss.css" crc="162430025"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\new1.css" crc="-1824657740"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\demo.min.css" crc="-358931736"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\bootstrap.min.css" crc="1704779917"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\bootstrap.min - Copy.css" crc="-180819090"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\bootstrap.css" crc="285031531"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\bootstrap-theme.min.css" crc="1746889955"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\css\bootstrap-theme.css" crc="413423990"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\cbrte\rte.css" crc="851943166"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\cbrte\richtext_compressed.js" crc="1961545639"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\cbrte\html2xhtml.js" crc="-1064813848"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\xls_gen_info.php" crc="785991450"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\updateprofile.php" crc="974855383"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\updateinstruction.php" crc="-1757882408"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\trackonline.php" crc="-317266456"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\smser.php" crc="-1140227385"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\showPosted_ideas.php" crc="128918329"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\showOpened_emails.php" crc="1628752723"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\setstatisticsvalue.php" crc="83434141"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\setautodiallist.php" crc="-1108444501"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sentmaildtl.php" crc="-2062058094"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sentmail.php" crc="-1896716421"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendsms.php" crc="-438454919"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendquote.php" crc="1853054876"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendphonecall.php" crc="-1346521038"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendmailsinglecust.php" crc="281664909"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendmail_new.php" crc="1163520494"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendmail_bkup.php" crc="1463331411"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendmail.php" crc="-28973950"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendindivquote.php" crc="-900338217"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendemail.php" crc="-1020642651"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\sendemail - Copy.php" crc="1765817733"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\searchbuyer.php" crc="1275120532"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\saveOpportunity.php" crc="609790401"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\quoteupld.php" crc="1226676244"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\quote.php" crc="796060269"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\previewSMS.php" crc="1771784139"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\previewEmail.php" crc="-395674470"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\postidea.php" crc="865656908"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\popcalendar.js" crc="1894666582"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\phpinfo.txt" crc="-2038624994"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\passchange.php" crc="1345873177"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\passchange - Copy.php" crc="743501598"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\notepad.php" crc="446480952"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\manager_report.php" crc="1656529646"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\log_call_info.php" crc="1900655274"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\index.php" crc="-483246119"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\importfromcsv.php" crc="1400295982"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\help.php" crc="754079050"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\header.php" crc="170356624"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\GoogleVoice.php" crc="-561912762"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getSentReceived_email.php" crc="-1747115184"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getNotification_sms.php" crc="-1557035807"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getNotification_postidea.php" crc="-2025391262"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getNotification_email.php" crc="-1204416329"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getNotification_call.php" crc="-478553524"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getNotification.php" crc="882413656"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getinstruction.php" crc="-974976413"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getHistory_sms.php" crc="-393768024"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getHistory_email.php" crc="939153333"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getHistory_call.php" crc="-2034251906"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getHistory_all_sms.php" crc="-1238374507"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getHistory_all_emails.php" crc="842457462"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getHistory_all_calls.php" crc="532021927"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\getEmailTemplate.php" crc="-717124038"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\forwardmail.php" crc="-2046660888"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\footer.php" crc="-218777208"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\emailtrack.php" crc="-400544404"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\editprofile.php" crc="1527127714"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\edit_profile_form.php" crc="1947682821"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\draftquote.php" crc="-530373761"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\draftmail.php" crc="-506277460"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\deleteopened_emails.php" crc="-985296054"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\deleteinstruction.php" crc="-1893895745"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\clicktocall.php" crc="686585481"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\changecredential.php" crc="-1040081602"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\changeaccess.php" crc="-1371554787"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\buyerinfo2.php" crc="-1723992238"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\buyerinfo1.php" crc="1229110572"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\buyerinfo.php" crc="1921300354"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\buyerentry.php" crc="-1560945588"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\autodialrestart.php" crc="773542429"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\autodial.php" crc="-610449575"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\adminlogout.php" crc="2029494929"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\adminhome.php" crc="763501438"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\admin_report.php" crc="-714235662"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\admheadmenu.php" crc="-729900197"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\addnote.php" crc="-185415602"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\addlease.php" crc="-1655549443"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\addinstruction.php" crc="-314001977"/>
+		<file name="C:\xampp\htdocs\directfunder\agentc3\addagent.php" crc="303620471"/>
+		<file name="C:\xampp\htdocs\directfunder\send.php" crc="-1519480865"/>
+		<file name="C:\xampp\htdocs\directfunder\cnf.php" crc="1903936527"/>
+		<file name="C:\xampp\htdocs\directfunder\apply.php" crc="-1727283102"/>
+		<file name="C:\xampp\htdocs\directfunder\.htaccess" crc="194935052"/>
+	</filescache>
+</project>

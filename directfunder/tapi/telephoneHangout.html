@@ -1,0 +1,72 @@
+<script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>
+<!-- set to developer channel -->
+<script src="//plus.google.com/hangouts/_/api/dev/hangout.js"></script>
+<body>
+  <script>
+  var gPhone;
+  var gCall;
+  function init() {
+    // When API is ready...
+    gapi.hangout.onApiReady.add(function() {
+      //placeCall();
+    });
+  }  
+
+  function placeCall(){
+    console.log("started");
+    var startData = gapi.hangout.getStartData();
+    console.log(startData);
+    
+    var phoneNumber = JSON.parse(startData);
+    console.log(phoneNumber);
+
+    gPhone = phoneNumber;
+
+    // You should perform validation of gd, but for now, ignore.
+
+    document.getElementById("outputArea").innerHTML =
+        "Dialing: " + phoneNumber.number + " based on initial data...";
+
+    gapi.hangout.telephone.onCallInitiated.add(callInitiatedEventHandler);    
+    gCall = gapi.hangout.telephone.beginCall(phoneNumber.number);
+  }
+
+  function sendCodeTones(){
+    console.log("Sending: " + gPhone.confCode);
+
+    // Send numbers in sequence
+    for (var i=0; i < gPhone.confCode.length; i++){
+      setTimeout("gCall.sendTone(gPhone.confCode[" + i + "])", i*250);
+    }
+
+    setTimeout("sendPinTones()", 5000);
+  }
+
+  function sendPinTones(){
+    console.log("Sending: " + gPhone.leadPin);
+
+    // Send numbers in sequence
+    for (var i=0; i < gPhone.leadPin.length; i++){
+      setTimeout("gCall.sendTone(gPhone.leadPin[" + i + "])", i*250);
+    }
+  }
+
+  function callInitiatedEventHandler(call){
+    call.callInformation.onCallStateChanged.add(callStateChangedEventHandler);       
+  }
+
+  function callStateChangedEventHandler(callState){
+    console.log("call state changed to:");
+    console.log(callState.newState);
+    
+    if (callState.newState == gapi.hangout.telephone.CallState.CONNECTED){
+      setTimeout("sendCodeTones()", 12000);
+    }
+  }
+
+  // Add startup listener immediately. If you need an
+  // OAuth 2.0 access token, your startup will be different.
+  init();
+  </script>
+  <div id="outputArea"></div>
+</body>

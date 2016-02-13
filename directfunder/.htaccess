@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /
+#RewriteCond %{REQUEST_URI} !^/m/.*$
+RewriteCond %{REQUEST_URI} !m
+RewriteCond %{REQUEST_URI} !(jpg|png|jpeg|gif|css|js|php)
+RewriteCond %{HTTP_USER_AGENT} "android|blackberry|ipad|iphone|ipod|iemobile|opera mobile|palmos|webos|googlebot-mobile" [NC]
+RewriteRule ^(.*?)$ /m/$1 [L,R=302]

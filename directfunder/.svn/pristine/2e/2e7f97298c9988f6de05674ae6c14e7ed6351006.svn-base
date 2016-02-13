@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Direct funder</title>
+    <link href="css/style.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <header class="bar bar-nav">
+      <div class="clearfix">
+        <a class="pull-left" href="index.html" style="margin-top:-3px"><img src="../images/img_logo.png" alt=""></a>
+        <p class="pull-right">
+          <a class="icon-phone" href="tel:800-680-5379"></a>
+        </p>
+         <p class="nav-button pull-right mr-10">
+          <button class="c-hamburger c-hamburger-htx">
+            <span>toggle menu</span>
+          </button>
+        </p>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">TRANG CHỦ</a></li>
+          <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+          <li><a href="creditprocess.html">LỘ TRÌNH VAY</a></li>
+          <li><a class="active">ĐĂNG KÝ</a></li>
+          <li><a href="faq.html">CÂU HỎI THƯỜNG GẶP</a></li>
+		  <li><a href="../getapproved.html">PHIÊN BẢN TIẾNG ANH</a></li>
+        </ul>
+    </nav>
+    </header>
+	<div class="navigator" >
+		<div class="viewport">
+		<div class="ft_LatoMedium" style="width:100%;height:42px;">
+		<div class="txt-white pl-5 txt-12" style="display:table-cell;height:42px;vertical-align:middle;width:150px;">
+			<div id="step1" class="circle ft_LatoLight nv-active">1</div>
+			<div style="padding-left:5px;display:table-cell;height:16px;vertical-align:middle;width:120px;">Thông Tin Cá Nhân</div>
+		</div>
+		<div class="txt-white pl-5 txt-12" style="display:table-cell;height:42px;vertical-align:middle;">
+			<div id="step2" class="circle ft_LatoLight">2</div>
+			<div style="padding-left:5px;display:table-cell;height:16px;vertical-align:middle;width:130px;">Thông Tin Kinh Doanh</div>
+		</div>
+		</div>
+		</div>
+	</div>
+    <div class="container approved-bg">
+      <form id="frmSend" >
+	  <div id="persionalInfo">
+      <div class="personal">
+        <p class="form-tt-1">THÔNG TIN CÁ NHÂN</p>
+		<p class="form-tt-line">&nbsp;</p>
+        <p class="form-tt-2 txt-8">VUI LÒNG ĐIỀN THÔNG TIN SAU</p>
+        <div class="form-ct cf ">
+            <p class="col-2"><input type="text" name="fName" required placeholder="Tên" /></p>
+            <p class="col-2"><input type="text" name="mName" required placeholder="Tên lót" /></p>
+            <p class="col-2"><input type="text" name="lName" required placeholder="Họ" /></p>
+            <p class="col-2"><input type="email" name="Email" required placeholder="Email" /></p>
+            <p class="col-2"><input type="tel" name="hPhone" required placeholder="Điện thoại nhà" /></p>
+            <p class="col-2"><input type="tel" name="cPhone" required placeholder="Di động" /></p>
+            <p class="col-1"><input type="text" name="hAddress" required placeholder="Địa chỉ" /></p>
+            <p class="col-2"><input type="number" name="Years" required placeholder="Từ năm" /></p>
+            <p class="col-2"><input type="text" name="City" required  placeholder="Thành phô" /></p>
+            <p class="col-2"><input type="text" name="State" required placeholder="Tiểu bang" /></p>
+            <p class="col-2"><input type="text" name="zCode" required placeholder="Mã Zip" /></p>
+            <p class="col-2"><input type="text" name="Dob" required placeholder="Ngày sinh" onfocus="(this.type='date')" onblur="(this.type='text')" /></p>
+            <p class="col-2"><input type="text" name="ss" required placeholder="SS#" /></p>
+            <p class="col-2"><input type="text" name="usCitizen" required placeholder="Công dân Mỹ?" /></p>
+            <p class="col-2"><input type="text" name="mMaidenName" required placeholder="Họ gốc" /></p>
+            <p class="col-2"><input type="text" name="driveLicense" required placeholder="Bằng lái xe#" /></p>
+            <p class="col-2" style="margin-bottom:0px;"><input type="text" name="uiWord" required placeholder="Từ định dạng cho riêng bạn" /></p>
+			<p class="pl-3 txt-9 txt-gray-2">- Có thể là tên của bạn thân hoặc thú cưng</p>
+        </div><!--/.form-ct cf-->
+      </div><!--/.personal-->
+	  <div class="family">
+        <p class="form-tt-1">THÔNG TIN NGHĨA VỤ QUÂN SỰ </p>
+        <p class="form-tt-line">&nbsp;</p>
+        <div class="form-ct lineh-14" style="color:#252c3d;">
+          
+            <p class="com-2 txt-center txt-9 txt-gray-2" >Những câu hỏi này được sử dụng để xác định bạn có đủ điều kiện cho chương trình vay ưu đãi dành cho các cá nhân liên quan đã phục vụ lực lượng vũ trang hoặc dịch vụ công cộng.</p>
+            <p class="com-2 txt-center txt-9 txt-gray-2" style="padding-top:10px;">BẠN HAY BẤT CỨ AI TRONG GIA ĐÌNH CÓ BÀO GIÒ PHỤC VỤ HOẶC HOẶC ĐỘNG DỰ BỊ TRONG LỰC LƯỢNG VŨ TRANG</p>
+            <div class="txt-center txt-9 txt-gray-2">
+				<div class="radio" style="width:300px;margin:0px auto;">
+              <input type="radio" id="haveFMServiceYes" name="haveFMService" class="required" value="Yes"><label for="haveFMServiceYes" class="mr-10">CÓ</label>
+              <input type="radio" id="haveFMServiceNo" name="haveFMService" value="No"><label for="haveFMServiceNo" class="mr-10">KHÔNG</label>
+              <input type="text" id="haveFMService" class="w130" name="whoFMService" placeholder="Nếu có, thì ai?"/>
+			  </div>
+            </div>
+            <p class="com-2 txt-9 txt-gray-2 txt-center" style="padding-top:10px;">BẠN HAY BẤT CỨ AI TRONG GIA ĐÌNH BẠN ĐÃ BAO GIỜ LÀM VIỆC CHO SỞ, PHÒNG, BAN</p>
+            <div class="txt-center txt-9 txt-gray-2">
+			<div class="radio" style="width:300px;margin:0px auto;">
+              <input type="radio" id="haveAnyoneElseYes" name="haveAnyoneElse" class="required" value="Yes"><label for="haveAnyoneElseYes" class="mr-10">CÓ</label>
+              <input type="radio" id="haveAnyoneElseNo" name="haveAnyoneElse" value="No"><label for="haveAnyoneElseNo" class="mr-10">KHÔNG</label>
+              <input type="text" id="haveAnyoneElse" class="w130" name="whoAnyoneElse" placeholder="Nếu có, thì ai?"/>
+			</div>
+            </div>          
+        </div>
+	  </div>
+	  <div class="pt-20 pb-20" style="width:100%;text-align:center;">
+		<button class="btn btn-small btn-orange mb-10 pt-10 input-continue" style="position:relative;width:250px;margin:0px auto;">
+		<div class="btn_grad" style="position:absolute;width:100px;height:28px;top:0px;left:0px;width:100%;"></div>
+		<div style="width:280px;margin:0px auto;text-align:left;position:relative;">
+			<div style="float:left;padding-left:15px;"><img src="../images/icon_cellphone.png"></div>
+			<div class="txt-17" style="padding-left:40px;line-height:17px;">
+			<b>ĐĂNG KÝ </b> NGAY<br><span class="txt-13">HOÀN TOÀN MIỄN PHÍ</span>
+			</div>
+		</div>
+		</button>
+	  </div>
+	  </div>
+	  
+      <div class="business" style="display:none;">
+        <p class="form-tt-1">THÔNG TIN KINH DOANH</p>
+		<p class="form-tt-line">&nbsp;</p>
+        <div class="form-ct" >
+			<p class="txt-center txt-8 txt-gray-2 pb-20 radio2"><span class="bold">BẠN ĐANG Ở GIAI ĐOẠN KINH DOANH NÀO?</span>
+              <input type="radio" id="startup" class="required" name="stateBusiness" value="Start Up"><label for="startup" class="mr-20">KHỞI NGHIỆP</label>
+              <input type="radio" id="existing" name="stateBusiness" value="Existing"><label for="existing" class="mr-20">ĐANG HOẠT ĐỘNG</label>
+            </p>
+            <p class="txt-center col-1"><input type="text" name="legalBusinessName" required placeholder="Tên kinh doanh chính thức" /></p>
+			<p class="txt-center col-1"><input type="text" name="entityType" required placeholder="Loại hình" /></p>
+            <div class="txt-center col-1"><input type="text" name="IndustryType" required placeholder="Lĩnh vực kinh doanh" /></div>
+            <div class="cf">
+              <p class="col-2"><input type="text" name="federalTax" required class="" placeholder="Mã số thuế" /></p>
+              <p class="col-2"><input type="tel" name="businessPhone" required class="" placeholder="Điện thoại trụ sở" /></p>
+              <p class="col-2"><input type="tel" name="fax" required class="" placeholder="Fax#" /></p>
+            </div>
+            <div class="txt-center col-1 cf"><input type="text" name="businessAddress" required class="" placeholder="Địa chỉ trụ sở" /></div>
+            <div class="txt-center cf">
+              <p class="col-2"><input type="text" name="businessCity" required placeholder="Thành phố" /></p>
+              <p class="col-2"><input type="text" name="businessState" required placeholder="Bang" /></p>
+              <p class="col-2"><input type="text" name="businessZCode" required placeholder="Mã Zip" /></p>
+            </div>
+            <div class="txt-center cf">
+              <p class="col-2"><input type="number" name="yearInBusiness" required placeholder="Số năm kinh doanh" /></p>
+              <p class="col-2"><input type="number" name="employees" required placeholder="Số nhân sự" /></p>
+            </div>
+            <div class="pl-3 cf txt-9 txt-gray-2 mt-3" ><span class="bold">BẢNG ĐĂNG KÝ KINH DOANH?</span> <input type="text" name="registeredBusiness" required class="w70" /></div>
+            <div class="txt-center cf txt-9 txt-gray-2 mt-3">
+              <p class="col-2"><input type="url" name="urlWebsite" placeholder="Website chính thức"/></p>
+            </div>
+            <div class="txt-center cf">
+              <p class="col-2"><input type="text" name="personalBank" required placeholder="Tên ngân hàng cá nhân" /></p>
+              <p class="col-2"><input type="text" name="businessBank" required placeholder="Tên ngân hàng doanh nghiệp" /></p>
+            </div>
+			<p class="txt-center pl-3 txt-9 txt-gray-2 radio2"><span class="bold">VIỆC KINH DOANH CỦA TÔI CHẤP NHẬN/ SẼ CHẤP NHẬN THANH TOÁN BẰNG THẺ TÍN DỤNG</span><br>
+              <input type="radio" id="acceptCreditAspaymentYes" class="required" name="acceptCreditAspayment" value="Yes"><label for="acceptCreditAspaymentYes">CÓ</label>
+              <input type="radio" id="acceptCreditAspaymentNo" name="acceptCreditAspayment" value="No"><label for="acceptCreditAspaymentNo">KHÔNG </label>
+			  
+            </p>
+            <p class="txt-center txt-9 txt-gray-2 radio2"><span class="bold">TÔI HIỆN TẠI ĐÃ CÓ TÀI KHOẢN TÍN DỤNG</span><br>
+              <input type="radio" id="merchantAccountYes" class="required" name="merchantAccount" value="Yes"><label for="merchantAccountYes">CÓ</label>
+              <input type="radio" id="merchantAccountNo" name="merchantAccount" value="No"><label for="merchantAccountNo">KHÔNG </label>
+            </p>
+            <p class="txt-center pl-3 txt-9 txt-gray-2"><span class="bold">TÔI ĐANG TÌM KIẾM</span> <input type="text" name="seeking" required class="w90 ml-5 mr-5" /> <span class="bold">TRONG DÒNG TÍN DỤNG ĐỂ KINH DOANH</span></p>
+            <p class="txt-center com-2 bold txt-9 txt-gray-2" style="padding-top:10px;">BẠN CÓ THẺ TÍN DỤNG DOANH NGHIỆP NHƯNG KHÔNG THỂ HIỆN TRONG BÁO CÁO TÍN DỤNG CÁ NHÂN?</p>
+            <div class="txt-center txt-9 txt-gray-2">
+			<div class="radio" style="width:300px;margin:0px auto;">
+              <input type="radio" id="dontShowPersonalCreditYes" class="required" name="dontShowPersonalCredit" value="Yes"><label for="dontShowPersonalCreditYes">CÓ</label>
+              <input type="radio" id="dontShowPersonalCreditNo" name="dontShowPersonalCredit" value="No"><label for="dontShowPersonalCreditNo">KHÔNG </label>
+              <input type="text" class="w130 ml-5 mr-5" id="dontShowPersonalCredit" name="urlShowPersonalCredit" placeholder="Nếu có, ngân hàng phát hành là?"/>
+			  </div>
+            </div>
+            <div class="txt-center txt-9 txt-gray-2 mt-6"><span class="bold">BẠN ĐÃ CÓ 401K HAY IRA?</span><br>
+			<div class="radio" style="width:300px;margin:0px auto;">
+              <input type="radio" id="haveIRAYes" name="haveIRA" class="required" value="Yes"><label for="haveIRAYes">YES</label>
+              <input type="radio" id="haveIRANo" name="haveIRA" value="No"><label for="haveIRANo">NO</label>
+              <input type="text" id="haveIRA" class="w130 ml-5 mr-5" name="haveIRAHowMuch" placeholder="Nếu có thì bao nhiêu?"/>
+			  </div>
+            </div>
+            <p class="txt-center com-2 bold pt-10 txt-9 txt-gray-2">
+              VUI LÒNG ĐĂNG KÝ TÀI KHOẢN TẠI WWW.CREDITNAV.COM. BẠN SẼ CẦN TÀI KHOẢN HOẠT ĐỘNG ÍT NHẤT 12 THANG ĐỂ BẢO ĐẢM BẠN, CHÚNG TÔI VÀ BÊN TƯ VẤN CÓ THỂ THAO DÕI VÀ CẬP NHẬT.
+            </p>
+            <p class="txt-center com-2 bold pt-10 txt-9 txt-gray-2">
+              TÔI CHẬP THUẬN CHO DIRECT FUNDER TRUY CẬP CÁC BÁO CÁO TẠI TÀI KHOẢN CREDITNAV.COM:
+            </p>
+            <div class="txt-center txt-9 txt-gray-2 radio2">
+              <input type="radio" id="givePermissionYes" name="givePermission" class="required" value="Yes"><label for="givePermissionYes">CÓ</label>
+              <input type="radio" id="givePermissionNo" name="givePermission" value="No"><label for="givePermissionNo">KHÔNG</label>
+              
+            </div>
+            <div class="txt-center mt-6 txt-9 txt-gray-2" style="line-height:40px;">
+              <span class="bold">TÊN TÀI KHOẢN</span> <input type="text" name="usrReport" class="w90 ml-5 mr-5"/> <br>
+			  <span class="bold">VÀ MẬT KHẨU</span><input type="text"  name="pswReport" class="w90 ml-5 mr-5"/>              
+            </div>  
+          
+        </div>
+		<div class="pt-20 pb-20" style="width:100%;text-align:center;">
+		<button class="btn btn-small btn-orange mb-10 pt-10 input-submit" style="position:relative;width:250px;margin:0px auto;">
+		<div class="btn_grad" style="position:absolute;width:100px;height:28px;top:0px;left:0px;width:100%;"></div>
+		<div style="width:280px;margin:0px auto;text-align:left;position:relative;">
+			<div style="float:left;padding-left:15px;"><img src="../images/icon_cellphone.png"></div>
+			<div class="txt-17" style="padding-left:40px;line-height:17px;">
+			ĐĂNG KÝ<br><span class="txt-13">HOÀN TOÀN MIỄN PHÍ</span>
+			</div>
+		</div>
+		</button>
+	  </div>
+      </div>
+	
+	   </form>   
+    </div><!--/.containerr-->
+    <div class="footer">
+      <ul class="nav-footer">
+        <li><a href="index.html"><img src="../images/icon_home.png" alt="" width="16" height="13"></a></li>
+        <li><a href="about.html">VỀ CHÚNG TÔI</a></li>
+        <li><a href="creditprocess.html">LỘ TRÌNH VAY</a></li>
+        <li><a href="getapproved.html">ĐĂNG KÝ</a></li>
+        <li><a href="faq.html">CÂU HỎI THƯỜNG GẶP</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/DirectFunder"><img src="../images/icon_fb.png" alt=""></a></li>
+        <li><a href="https://twitter.com/DirectFunder"><img src="../images/icon_tw.png" alt=""></a></li>
+        <li><a ><img src="../images/icon_ins.png" alt=""></a></li>
+        <li><a ><img src="../images/icon_in.png" alt=""></a></li>
+        <li><a ><img src="../images/icon_youtube.png" alt=""></a></li>
+        <li><a href="https://plus.google.com/u/0/112945951832303327647/posts"><img src="../images/icon_g.png" alt=""></a></li>
+      </ul>
+      <img src="../images/img_logo_footer.png" alt="">
+      <a href="tel:800-680-5379" style="text-decoration:none"><p class="call-footer">Gọi 800-680-5379</p></a>
+      <p class="copyright">© 2015 www.DirectFunder.com <br>
+ Bản quyền | <a  class="policy">Chính sách bảo mật</a></p>
+    </div><!--/.footer-->
+<div id="overlay" class="web_dialog_overlay"></div>
+    
+<div id="dialog" class="web_dialog">
+	<div class="loading txt-17" style="color:#12abdc;">Đang gởi yêu cầu...</div>
+	<div class="msg txt-17" style="color:#12abdc;"></div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/approved.js"></script>
+    <script>
+      (function () {
+
+        "use strict";
+
+        var toggles = document.querySelectorAll(".c-hamburger");
+
+        for (var i = toggles.length - 1; i >= 0; i--) {
+          var toggle = toggles[i];
+          toggleHandler(toggle);
+        };
+
+        function toggleHandler(toggle) {
+          toggle.addEventListener("click", function (e) {
+            $('nav').slideToggle('500');
+            e.preventDefault();
+            (this.classList.contains("is-active") === true) ? this.classList.remove("is-active"): this.classList.add("is-active");
+          });
+        }
+
+      })();
+      
+    </script>
+  </body>
+</html>

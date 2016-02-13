@@ -1,0 +1,53 @@
+/* Helvetica LT Std */
+@font-face {
+  font-family: 'Helvetica LT Std';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://www.directfunder.com/fonts/font.php?f=HelveticaLTStd-BoldCond.otf), url('http://www.directfunder.com/fonts/font.php?f=HelveticaLTStd-BoldCond.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica LT Std';
+  font-style: Bold;
+  font-weight: bold;
+  src: url(http://www.directfunder.com/fonts/font.php?f=HelveticaLTStd-BoldCond.otf), url('http://www.directfunder.com/fonts/font.php?f=HelveticaLTStd-BoldCond.woff') format('woff');
+}
+/* ft_HelveticaWorld*/
+@font-face {
+  font-family: 'Helvetica World';
+  font-style: Regular;
+  font-weight: 100;
+  src: url(http://www.directfunder.com/fonts/font.php?f=HelveticaWorld-Regular.ttf), url('http://www.directfunder.com/fonts/font.php?f=HelveticaWorld-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica World';
+  font-style: Bold;
+  font-weight: bold;
+  src: url(http://www.directfunder.com/fonts/font.php?f=HelveticaWorld-Bold.ttf), url('http://www.directfunder.com/fonts/font.php?f=HelveticaWorld-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  font-style: normal;
+  font-weight: 100;
+  src: url(http://www.directfunder.com/fonts/font.php?f=LATO-LIG_0.ttf), url('http://www.directfunder.com/fonts/font.php?f=LATO-LIG_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://www.directfunder.com/fonts/font.php?f=LATO-MEDIUM_0.ttf), url('http://www.directfunder.com/fonts/font.php?f=LATO-MEDIUM_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: Regular;
+  font-weight: 100;
+  src: url(http://www.directfunder.com/fonts/font.php?f=LATO-REG_0.ttf), url('http://www.directfunder.com/fonts/font.php?f=LATO-REG_0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato Regular';
+  font-style: Regular;
+  font-weight: 100;
+  src: url(http://www.directfunder.com/fonts/font.php?f=LATO-REG_0.ttf), url('http://www.directfunder.com/fonts/font.php?f=LATO-REG_0.woff') format('woff');
+}

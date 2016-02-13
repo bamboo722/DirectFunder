@@ -1,0 +1,24 @@
+<html>
+<script src="https://apis.google.com/js/platform.js"></script>
+<body>
+  <div id="button-target"></div>
+  <script>
+    gapi.hangout.render('button-target', {
+      'render': 'createhangout',
+      'initial_apps': [{
+          'app_id' : '337108058063',
+          'start_data' : '{"number": "(860) 680-5379", "confCode": "12345", "leadPin": "7890"}', 'app_type' : 'ROOM_APP'
+      }],
+      'widget_size': 175
+    });
+  </script>
+  <!--script>
+    gapi.hangout.render('button-target', {
+      'render': 'createhangout',
+      'initial_apps': [{
+      }],
+      'widget_size': 175
+    });
+  </script-->
+</body>
+</html>
